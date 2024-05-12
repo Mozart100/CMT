@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:converters="clr-namespace:CMT.Converters">
+
+    <converters:PointToAngleConverter x:Key="ProgressConverter" />
+
+
+    <converters:Null2VisibilityConverter TrueValue="Visible" FalseValue="Collapsed" x:Key="NotNullToVisibleCollapsed" />
+
+</ResourceDictionary>
